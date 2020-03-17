@@ -30,6 +30,9 @@ import PackageDescription
 
 let package = Package(
     name: "CDYelpFusionKit",
+    platforms: [
+        .iOS(.v10.0),
+    ],
     products: [
         .library(
             name: "CDYelpFusionKit",
