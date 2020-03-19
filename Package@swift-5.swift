@@ -42,6 +42,7 @@ let package = Package(
     targets: [
         .target(
             name: "CDYelpFusionKit",
+            dependencies: ["AlamofireObjectMapper"],
             path: "Source")
     ],
     swiftLanguageVersions: [.v4, .v5]
